@@ -8,7 +8,8 @@ I successfully run it on VSCode, and failed on Spyder.
 I didn't describe here.  
 Please Google for more information.  
 ### And I DON'T RECOMMAND TO GIVE YOUR BOT "Administrator Permissions".
-If your bot been hacked, your server will be cracked.
+Because if your bot been hacked, your server will be cracked.  
+This bot only need "Send Message" and "Manage Message" permissions.
 
 ## Installation
 This code write in python.  
