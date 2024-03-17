@@ -4,7 +4,7 @@ It's my first time write a discord bot, so there might be some problem in my cod
 I successfully run it on VSCode, and failed on Spyder.  
 ### So, if you use other IDE and meet some problem, please try to use VSCode.  
 
-##Discord Bot
+## Discord Bot
 I didn't describe here.  
 Please Google for more information.  
 ### And I DON'T RECOMMAND TO GIVE YOUR BOT "Administrator Permissions".
