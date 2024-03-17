@@ -6,7 +6,7 @@ import requests
 # Settings Start:
 # Discord Settings
 CHANNEL_ID = 000000000000000000  # The channel you want bot to send message to
-BOT_TOKEN = "YOUR_DISCORD_BOT_TOKEN"  # could be copy from your discord deeveloper website
+BOT_TOKEN = "YOUR_DISCORD_BOT_TOKEN"  # could be copy from your discord deeveloper portal
 
 # Discord Bot Settings
 BOT_STATUS = discord.Status.idle  # "idle" could be replaced by online, offline, idle, dnd, invisible
