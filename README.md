@@ -1,5 +1,5 @@
 # mcss_server_status_discord_bot  
-A Discord bot can get your MCSS servers status and upadate it to a channel  
+A Discord bot can get your MCSS servers status and upadate it to a channel.  
 It's my first time write a discord bot, so there might be some problem in my code.  
 I successfully run it on VSCode, and failed on Spyder.  
 ### So, if you use other IDE and meet some problem, please try to use VSCode.  
