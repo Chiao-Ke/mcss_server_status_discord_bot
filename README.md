@@ -21,7 +21,7 @@ I list my install step below:
   3.  Type `conda create --name discord python=3.10` (the `--name discord` gives your environment a name "discord") 
   4.  Then wait until environment was created
   5.  Type `conda activate discord` (activate this environment so we can install some packages we need in the right place)
-  6.  type `pip install discord.py` then enter
+  6.  Type `pip install discord.py` then enter
   7.  Type `pip install requests` then enter
   8.  Now the packages are ready
   9.  Use a code editor to open this code (I uses Visual Studio Code https://code.visualstudio.com/)
