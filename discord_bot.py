@@ -68,7 +68,7 @@ async def send_message():
     server_message = get_servers()
 
     server_message = server_message + (
-        "Latest updated at: " + datetime.now().strftime("%Y/%m/%d %H:%M:%S")
+        "Last updated: " + datetime.now().strftime("%Y/%m/%d %I:%M:%S %p")
     )
 
     # Get the last 1 messages from the channel
