@@ -33,7 +33,7 @@ I list my install step below:
   14. If everything is fine your code should start running
 
 Your bot should send a message like this:  
-<img width="242" alt="240317_1621557_Discord" src="https://github.com/chiao-ke/mcss_server_status_discord_bot/assets/86766885/204ed227-9d53-4638-b11d-b145c3fb560a">
+<img width="234" alt="240317_2124587_Discord" src="https://github.com/chiao-ke/mcss_server_status_discord_bot/assets/86766885/bf7a7b37-4b3c-404c-b78c-1d17d8e6f22d">
   
 Enjoy!
 
