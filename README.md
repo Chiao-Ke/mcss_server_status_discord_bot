@@ -3,6 +3,13 @@ A Discord bot can get your Minecraft Server Soft servers status and upadate it t
 It's my first time write a discord bot, so there might be some problem in my code.  
 I successfully run it on VSCode, and failed on Spyder.  
 ### So, if you use other IDE and meet some problem, please try to use VSCode.  
+
+##Discord Bot
+I didn't describe here.  
+Please Google for more information.  
+### And I DON'T RECOMMAND TO GIVE YOUR BOT "Administrator Permissions".
+If your bot been hacked, your server will be cracked.
+
 ## Installation
 This code write in python.  
 For convenience, I recommand you to use Anaconda or Miniconda to create an environment for it.  
