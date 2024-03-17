@@ -4,7 +4,7 @@ It's my first time write a discord bot, so there might be some problem in my cod
 I successfully run it on VSCode, and failed on Spyder.
 ### So, if you use other IDE and meet some problem, please try to use VSCode.
 ## Installation
-This code write in python.
+This code write in python. 
 For convenience, I recommand you to use Anaconda or Miniconda to create an environment for it.
 Maybe you have a better way, then that's ok.
 
