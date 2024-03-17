@@ -1,12 +1,12 @@
-# mcss_server_status_discord_bot
-A Discord bot can get your MCSS servers status and upadate it to a channel
-It's my first time write a discord bot, so there might be some problem in my code.
-I successfully run it on VSCode, and failed on Spyder.
-### So, if you use other IDE and meet some problem, please try to use VSCode.
+# mcss_server_status_discord_bot  
+A Discord bot can get your MCSS servers status and upadate it to a channel  
+It's my first time write a discord bot, so there might be some problem in my code.  
+I successfully run it on VSCode, and failed on Spyder.  
+### So, if you use other IDE and meet some problem, please try to use VSCode.  
 ## Installation
-This code write in python. 
-For convenience, I recommand you to use Anaconda or Miniconda to create an environment for it.
-Maybe you have a better way, then that's ok.
+This code write in python.  
+For convenience, I recommand you to use Anaconda or Miniconda to create an environment for it.  
+Maybe you have a better way, then that's ok.  
 
 I list my install step below:
   1.  Install Miniconda (because it's lighter than Anaconda)
