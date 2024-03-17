@@ -31,6 +31,6 @@ I list my install step below:
   13. Now, everything is done. You can start run your code by pressing "Play" buttom on the top and right of the windows (looks like a triangle)
   14. If everything is fine your code should start running
 Your bot should send a message like this:
-<img width="242" alt="240317_1621557_Discord" src="https://github.com/chiao-ke/mcss_server_status_discord_bot/assets/86766885/204ed227-9d53-4638-b11d-b145c3fb560a">
+<img width="242" alt="240317_1621557_Discord" src="https://github.com/chiao-ke/mcss_server_status_discord_bot/assets/86766885/204ed227-9d53-4638-b11d-b145c3fb560a">  
 Enjoy!
 
