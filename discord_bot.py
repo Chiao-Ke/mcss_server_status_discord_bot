@@ -17,8 +17,12 @@ UPDATE_PERIOD = 57  # seconds, update period
 API_BASE_URL = "YOUR_SERVER_IP"  # https://localhost:25560 or specific ip
 API_KEY = "YOUR_MCSS_API_KEY"
 
-# Settings End ---
+# IF you don't want to peint the warning message while request, uncomment the 2 lines below
+#from urllib3.exceptions import InsecureRequestWarning
+#requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
+# It doesn't fix the security problem, but if you're using localhost and just get MC servers status, it's probably fine
 
+# Settings End ---
 
 def get_servers():
     url = f"{API_BASE_URL}/api/v2/servers"
@@ -68,7 +72,7 @@ async def send_message():
     server_message = get_servers()
 
     server_message = server_message + (
-        "Last updated: " + datetime.now().strftime("%Y/%m/%d %I:%M:%S %p")
+        "Latest updated at: " + datetime.now().strftime("%Y/%m/%d %H:%M:%S")
     )
 
     # Get the last 1 messages from the channel
@@ -89,10 +93,11 @@ async def send_message():
     else:
         # Send a new message
         message_reference = await channel.send(server_message)
+    # Clear console and print server_message
+    os.system('cls' if os.name == 'nt' else "printf '\033c'")
+    print(server_message)
 
-    # Schedule the next message
-    await asyncio.sleep(UPDATE_PERIOD)
-    await send_message()
+    
 
 
 @client.event
@@ -102,7 +107,9 @@ async def on_ready():
     await client.change_presence(
         status=BOT_STATUS, activity=game
     )  # Change BOT_STATUS at the top
-    await send_message()
-
+    while(True):
+        # Schedule the next message
+        await send_message()
+        await asyncio.sleep(UPDATE_PERIOD)
 
 client.run(BOT_TOKEN)
