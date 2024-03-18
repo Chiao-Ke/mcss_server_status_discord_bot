@@ -17,10 +17,10 @@ UPDATE_PERIOD = 57  # seconds, update period
 API_BASE_URL = "YOUR_SERVER_IP"  # https://localhost:25560 or specific ip
 API_KEY = "YOUR_MCSS_API_KEY"
 
-# IF you don't want to peint the warning message while request, uncomment the 2 lines below
+# IF you don't want to print the warning message while request, uncomment these 2 lines below
 #from urllib3.exceptions import InsecureRequestWarning
 #requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
-# It doesn't fix the security problem, but if you're using localhost and just get MC servers status, it's probably fine
+# It doesn't fix the security problem, but if you're using localhost and just get MC servers status, it's probably be fine
 
 # Settings End ---
 
