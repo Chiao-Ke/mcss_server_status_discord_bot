@@ -94,8 +94,8 @@ async def send_message():
         # Send a new message
         message_reference = await channel.send(server_message)
     # Clear console and print server_message
-    os.system('cls' if os.name == 'nt' else "printf '\033c'")
-    print(server_message)
+    #os.system('cls' if os.name == 'nt' else "printf '\033c'")
+    #print(server_message)
 
     
 
